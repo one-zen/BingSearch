@@ -1,0 +1,77 @@
+body {
+    font-family: 'Segoe UI', Segoe, Tahoma, Arial, Verdana, sans-serif;
+    background-color: #333;
+}
+.bg-div {
+    position: relative;
+    width: 1360px;
+    height: 700px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../IMG/BingWallpaper.jpg) no-repeat;
+    background-size: cover;
+}
+.logo {
+    float: left;
+    width: 132px;
+    height: 50px;
+    margin: -6px 18px 0 0;
+    background: url(../IMG/hpc20.png) no-repeat;
+}
+.search-warp {
+    float: left;
+    width: 540px;
+    padding: 3px;
+    background-color: #fff;
+}
+.search-input-text {
+    font-size: 100%;
+    line-height: 35px;
+    float: left;
+    width: 498px;
+    height: 38px;
+    border: 0;
+    outline: none;
+}
+.search-input-submit {
+    float: left;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 0;
+    background: url(../IMG/searchbt.png) no-repeat center;
+}
+.search-box {
+    position: absolute;
+    top: 20%;
+    left: 8%;
+}
+/*#search-suggest {
+    position: absolute;
+    top: 186px;
+    left: 258px;
+}*/
+.suggest {
+    display: none;
+    width: 546px;
+    border: 1px solid #999;
+    background-color: #fff;
+}
+.suggest ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.suggest ul li {
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 10px;
+    padding: 3px;
+    cursor: pointer;
+    color: #666;
+}
+.suggest ul li:hover {
+    text-align: left;
+    text-decoration: underline;
+    background-color: #e5e5e5;
+}
